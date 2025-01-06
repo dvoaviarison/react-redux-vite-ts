@@ -1,5 +1,6 @@
 # React + Redux + TypeScript + Vite
 This project provides with the simplest template for using React + Redux + Vite using typescript.
+
 Demo (main branch) available here: [react-redux-vite-ts](https://react-redux-vite-ts.vercel.app)
 
 ## How to run the app?
