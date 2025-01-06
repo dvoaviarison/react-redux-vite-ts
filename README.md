@@ -1,7 +1,9 @@
 # React + Redux + TypeScript + Vite
 This project provides with the simplest template for using React + Redux + Vite using typescript.
 
-Demo (main branch) available here: [react-redux-vite-ts](https://react-redux-vite-ts.vercel.app)
+Demo (main branch) available here: 
+- React (this repo): [react-redux-vite-ts.vercel.app](https://react-redux-vite-ts.vercel.app/)
+- Angular [Version](https://github.com/dvoaviarison/angular-ngrx-ts): [angular-ngrx-ts.vercel.app](https://angular-ngrx-ts.vercel.app/)
 
 ## How to run the app?
 Make sure dependencies are installed: `npm install`
