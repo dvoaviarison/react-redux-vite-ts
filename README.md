@@ -1,5 +1,6 @@
 # React + Redux + TypeScript + Vite + TS
-This project provides with the simplest template for using React + Redux + Vite using typescript
+This project provides with the simplest template for using React + Redux + Vite using typescript.
+Demo (main branch) available here: [react-redux-vite-ts](https://react-redux-vite-ts.vercel.app)
 
 ## How to run the app?
 Make sure dependencies are installed: `npm install`
@@ -9,5 +10,5 @@ Make sure dependencies are installed: `npm install`
 ## How to create docker image?
 - Build: `docker buildx build --platform linux/amd64 -t username/react-redux-vite-ts:tag .`
 - Publish using: `docker push username/react-redux-vite-ts:tag`
-- Run: `docker run -d -p 3050:3010 username/react-redux-vite-ts:tag`
+- Run: `docker run -d -p 3010:3010 username/react-redux-vite-ts:tag`
 
