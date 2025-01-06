@@ -1,4 +1,4 @@
-import { Calculate, Home as HomeIcon } from "@mui/icons-material";
+import { Calculate, Home as HomeIcon, Summarize } from "@mui/icons-material";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import MenuItem from "@mui/material/MenuItem";
@@ -21,6 +21,12 @@ const Menu = () => {
                         <Calculate fontSize="small" />
                     </ListItemIcon>
                     <ListItemText>Counter</ListItemText>
+                </MenuItem>
+                <MenuItem component={Link} to="/statesummary">
+                    <ListItemIcon>
+                        <Summarize fontSize="small" />
+                    </ListItemIcon>
+                    <ListItemText>State Summary</ListItemText>
                 </MenuItem>
             </MenuList>
         </Paper>
