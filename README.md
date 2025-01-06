@@ -13,3 +13,8 @@ Make sure dependencies are installed: `npm install`
 - Publish using: `docker push username/react-redux-vite-ts:tag`
 - Run: `docker run -d -p 3010:3010 username/react-redux-vite-ts:tag`
 
+## About
+This has been boostrapped using
+```sh
+npm create vite
+```
